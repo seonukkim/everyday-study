@@ -30,5 +30,5 @@ def DFS(numbers, target, depth):
         answer += DFS(numbers, target, depth+1)
         return answer
 
-print(bfs_solution([1, 1, 1, 1, 1], 3))
-print(dfs_solution([1, 1, 1, 1, 1], 3))
+#print(bfs_solution([1, 1, 1, 1, 1], 3))
+#print(dfs_solution([1, 1, 1, 1, 1], 3))

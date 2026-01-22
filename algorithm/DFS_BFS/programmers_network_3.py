@@ -39,3 +39,6 @@ def BFS(n, computers, com, visited):
                 if visited[connect] == False:
                     queue.append(connect)
                     visited[connect] = True
+
+# print(dfs_solution(5, [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]))
+# print(bfs_solution(5, [[1, 1, 0, 0, 0], [1, 1, 0, 0, 0], [0, 0, 1, 0, 0], [0, 0, 0, 1, 0], [0, 0, 0, 0, 1]]))
